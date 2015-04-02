@@ -1472,7 +1472,7 @@ void CFile::Resume()
 #ifndef NO_HOSTERS
 	if(!(IsRawArchive() && !IsMultiFile()) && !IsRemoved() && !MetaDataMissing())
 #else
-	if(!(!IsMultiFile()) && !IsRemoved() && !MetaDataMissing())
+	if(!IsRemoved() && !MetaDataMissing())
 #endif
 		OpenIO();
 
