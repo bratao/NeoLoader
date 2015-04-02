@@ -133,7 +133,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>qtmain.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Network.lib;Qt5Script.lib;Qt5Widgets.lib;Qt5Sql.lib;..\crypto++\x64\DLL_Output\Release\cryptopp.lib;..\x64\Release\NeoHelper.lib;..\x64\Release\qjson.lib;..\x64\Release\qtservice.lib;..\x64\Release\qtsingleapp.lib;..\x64\Release\qbencode.lib;..\x64\Release\NeoScriptTools.lib;..\x64\Release\NeoGUI.lib;..\x64\Release\MiniUPnP.lib;..\utp\x64\Release\utp.lib;..\x64\Release\DHT.lib;..\x64\Release\qtping.lib;Ws2_32.lib;Qt5Concurrentd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>qtmain.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Network.lib;Qt5Script.lib;Qt5Widgets.lib;Qt5Sql.lib;..\crypto++\x64\DLL_Output\Release\cryptopp.lib;..\x64\Release\NeoHelper.lib;..\x64\Release\qjson.lib;..\x64\Release\qtservice.lib;..\x64\Release\qtsingleapp.lib;..\x64\Release\qbencode.lib;..\x64\Release\NeoScriptTools.lib;..\x64\Release\NeoGUI.lib;..\x64\Release\MiniUPnP.lib;..\utp\x64\Release\utp.lib;..\x64\Release\DHT.lib;..\x64\Release\qtping.lib;Ws2_32.lib;Qt5Concurrent.lib;..\zlib\x64\Release\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
       <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -175,7 +175,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;Qt5Guid.lib;Qt5Networkd.lib;Qt5Scriptd.lib;Qt5Widgetsd.lib;Qt5Sqld.lib;..\crypto++\x64\DLL_Output\Debug\cryptopp.lib;..\x64\Debug\NeoHelper.lib;..\x64\Debug\qjson.lib;..\x64\Debug\qbencode.lib;..\x64\Debug\qtservice.lib;..\x64\Debug\qtsingleapp.lib;..\x64\Debug\NeoScriptTools.lib;..\x64\Debug\NeoGUI.lib;..\x64\Debug\MiniUPnP.lib;..\utp\x64\Debug\utp.lib;..\x64\Debug\DHT.lib;..\x64\Debug\qtping.lib;Ws2_32.lib;Qt5Concurrentd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;Qt5Guid.lib;Qt5Networkd.lib;Qt5Scriptd.lib;Qt5Widgetsd.lib;Qt5Sqld.lib;..\crypto++\x64\DLL_Output\Debug\cryptopp.lib;..\x64\Debug\NeoHelper.lib;..\x64\Debug\qjson.lib;..\x64\Debug\qbencode.lib;..\x64\Debug\qtservice.lib;..\x64\Debug\qtsingleapp.lib;..\x64\Debug\NeoScriptTools.lib;..\x64\Debug\NeoGUI.lib;..\x64\Debug\MiniUPnP.lib;..\utp\x64\Debug\utp.lib;..\x64\Debug\DHT.lib;..\x64\Debug\qtping.lib;Ws2_32.lib;Qt5Concurrentd.lib;..\zlib\x64\Debug\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
       <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -8197,7 +8197,7 @@
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties MocDir=".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)" QtVersion="4.6.2" QtVersion_x0020_Win32="$(DefaultQtVersion)" RccDir=".\$(PlatformName)\GeneratedFiles" UicDir=".\$(PlatformName)\GeneratedFiles" Qt5Version_x0020_x64="Qt 5.1.0 msvc2012_64" Qt5Version_x0020_Win32="$(DefaultQtVersion)" />
+      <UserProperties MocDir=".\$(PlatformName)\GeneratedFiles\$(ConfigurationName)" UicDir=".\$(PlatformName)\GeneratedFiles" RccDir=".\$(PlatformName)\GeneratedFiles" QtVersion="4.6.2" Qt5Version_x0020_Win32="$(DefaultQtVersion)" Qt5Version_x0020_x64="$(DefaultQtVersion)" QtVersion_x0020_Win32="$(DefaultQtVersion)" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
